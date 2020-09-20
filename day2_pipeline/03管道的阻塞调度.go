@@ -38,3 +38,13 @@ func Go12() {
 	}
 	fmt.Println("over")
 }
+func Go13() {
+	var a *int
+	// i := 42
+	// a = &i
+	fmt.Println(a)  //这个指针为nil ，不能寻址
+	fmt.Println(&a) //0xc000006028
+	// *a = 10
+
+	// fmt.Println(*a) //panic: runtime error: invalid memory address or nil pointer dereference
+}

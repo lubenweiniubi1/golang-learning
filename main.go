@@ -39,7 +39,10 @@ func main() {
 	if false {
 		day2_pipeline.Go11()
 	}
-	if true {
+	if false {
 		day2_pipeline.Go12()
+	}
+	if true {
+		day2_pipeline.Go13()
 	}
 }
